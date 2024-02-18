@@ -71,11 +71,9 @@ public class MyFrame extends JFrame {
 		});
 
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		// this.setLayout(new FlowLayout());
 		this.add(panel);
 
 		panel.add(textField);
-		// textField.set
 		panel.add(depositButton);
 		panel.add(withdrawButton);
 		panel.add(quitButton);
