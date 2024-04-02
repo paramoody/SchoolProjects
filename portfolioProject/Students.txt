@@ -1,0 +1,3 @@
+Name: Bob Waters, Address: 8923 9'th Ave., GPA: 2.5
+Name: Joe Sanders, Address: 453 Westbrook Street, GPA: 3.2
+Name: Susan Peters, Address: 5543 East 22'nd St., GPA: 4.0
