@@ -93,9 +93,9 @@ public class BagArray<T> implements BagInterface<T> {
 		return false;
 	}
 
+	
 	@Override
 	public T[] toArray() {
-		T[] toReturn = items;
-		return toReturn;
+		return items;
 	}
 }

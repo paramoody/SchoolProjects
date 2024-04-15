@@ -4,20 +4,26 @@ import java.util.Arrays;
 
 public class App {
 	public static void main(String[] args) {
-		BagArray<String> bag = new BagArray<>(6);
-		bag.add("a");
-		bag.add("a");
-		bag.add("a");
-		bag.add("g");
-		bag.add("g");
-		bag.add("g");
-		bag.remove("a");
-		bag.add("t");
-		
-		System.out.println(Arrays.toString(bag.toArray()));
-		System.out.println(bag.getHowMany("a"));
-		System.out.println(bag.contains("f"));
-		System.out.println(bag.getSize());
-		
+	BagList<Integer> bag = new BagList<>();
+	bag.add(5);
+	bag.add(5);
+	bag.add(5);
+	bag.add(5);
+	bag.add(2);
+	bag.add(44);
+	bag.add(7);
+	
+	System.out.println(bag.isEmpty());
+	System.out.println(bag.contains(5));
+	System.out.println(bag.getHowMany(2));
+	bag.print();
+	bag.remove();
+	bag.print();
+	bag.remove(5);
+	bag.remove(5);
+	bag.remove(5);
+	bag.remove();
+	bag.print();
+	System.out.println(bag.contains(55));
 	}
 }
