@@ -9,6 +9,7 @@ public class BagArray<T> implements BagInterface<T> {
 		this(DEFAULT_CAPACITY);
 	}
 
+	@SuppressWarnings("unchecked")
 	public BagArray(int size) {
 		items = (T[]) new Object[size];
 		numberOfItems = 0;
@@ -97,5 +98,11 @@ public class BagArray<T> implements BagInterface<T> {
 	@Override
 	public T[] toArray() {
 		return items;
+	}
+
+	@Override
+	public void merge() {
+		// TODO Auto-generated method stub
+		
 	}
 }

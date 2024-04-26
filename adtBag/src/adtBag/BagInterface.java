@@ -10,4 +10,6 @@ public interface BagInterface<T> {
 	public int getHowMany(T item);
 	public boolean contains(T item);
 	public T[] toArray();
+	public void merge();
+	public Bag<T> distinct;
 }
